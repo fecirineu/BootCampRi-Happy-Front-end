@@ -21,7 +21,7 @@ Cada projeto representa uma etapa do meu aprendizado em **JavaScript, HTML e CSS
 - **Especialista:** Felipe Aguiar *(Tech Educator - DIO)*  
 - **Tecnologias:** HTML, CSS e JavaScript  
 - **Descrição:** Jogo da memória utilizando emojis. Projeto desenvolvido para praticar manipulação de DOM, lógica de programação e estilização com CSS.  
-https://fecirineu.github.io/BootCampsDIO/JogoDaMemoria/index.html
+DEMO: https://fecirineu.github.io/BootCampsDIO/JogoDaMemoria/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
