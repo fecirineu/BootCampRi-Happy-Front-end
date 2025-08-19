@@ -14,5 +14,23 @@ Cada projeto representa uma etapa do meu aprendizado em **JavaScript, HTML e CSS
 ## 📂 Estrutura do Repositório
 - Cada pasta dentro deste repositório corresponde a um projeto específico.
 - Dentro das pastas você encontrará os arquivos de código, estilos e scripts utilizados.
+---
+
+- ## 🎮 Projetos Desenvolvidos
+### 1. 🧩 Jogo da Memória com Emojis  
+- **Especialista:** Felipe Aguiar *(Tech Educator - DIO)*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:** Jogo da memória utilizando emojis. Projeto desenvolvido para praticar manipulação de DOM, lógica de programação e estilização com CSS.  
+---
+
+## 🚀 Tecnologias Estudadas
+- HTML5  
+- CSS3  
+- JavaScript (ES6+)  
+---
+
+## 📌 Objetivo
+Manter um portfólio de estudos que mostre minha evolução durante os bootcamps da DIO.  
+Este repositório vai servir tanto como registro de aprendizado quanto como portfólio público.
 
 
