@@ -14,6 +14,7 @@ Cada projeto representa uma etapa do meu aprendizado em **JavaScript, HTML e CSS
 ## 📂 Estrutura do Repositório
 - Cada pasta dentro deste repositório corresponde a um projeto específico.
 - Dentro das pastas você encontrará os arquivos de código, estilos e scripts utilizados.
+
 ---
 
 - ## 🎮 Projetos Desenvolvidos
