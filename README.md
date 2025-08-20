@@ -22,6 +22,12 @@ Cada projeto representa uma etapa do meu aprendizado em **JavaScript, HTML e CSS
 - **Tecnologias:** HTML, CSS e JavaScript  
 - **Descrição:** Jogo da memória utilizando emojis. Projeto desenvolvido para praticar manipulação de DOM, lógica de programação e estilização com CSS.  
 DEMO: https://fecirineu.github.io/BootCampsDIO/JogoDaMemoria/index.html
+
+### 2. 🧩 Pokedex 
+- **Especialista:** Renan Johannsen  *Software Engineer Lead, S3 BANK*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:** API REST para a criação de uma Pokédex.  
+DEMO: https://fecirineu.github.io/BootCampsDIO/Pokedex/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
