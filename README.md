@@ -1,6 +1,6 @@
-# 🚀 Bootcamps DIO - Meus Projetos
+# 🚀 Bootcamp Ri Happy - Front end - Meus Projetos
 
-Este repositório foi criado para armazenar os projetos que desenvolvo durante os **Bootcamps da [DIO - Digital Innovation One](https://www.dio.me/)**.  
+Este repositório foi criado para armazenar os projetos que desenvolvo durante os **Bootcamps Front End Ri Happy**.  
 O objetivo é praticar e consolidar o aprendizado, recriando projetos apresentados pelos especialistas e mentores ao longo das formações.
 
 ---
@@ -22,13 +22,13 @@ Cada projeto representa uma etapa do meu aprendizado em **JavaScript, HTML e CSS
 - **Especialista:** Felipe Aguiar *(Tech Educator - DIO)*  
 - **Tecnologias:** HTML, CSS e JavaScript  
 - **Descrição:** Jogo da memória utilizando emojis. Projeto desenvolvido para praticar manipulação de DOM, lógica de programação e estilização com CSS.  
-DEMO: https://fecirineu.github.io/BootCampsDIO/JogoDaMemoria/index.html
+DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/JogoDaMemoria/index.html
 
 ### 2. 🧩 Pokedex 
 - **Especialista:** Renan Johannsen  *Software Engineer Lead, S3 BANK*  
 - **Tecnologias:** HTML, CSS e JavaScript  
 - **Descrição:** API REST para a criação de uma Pokédex.  
-DEMO: https://fecirineu.github.io/BootCampsDIO/Pokedex/index.html
+DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Pokedex/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
