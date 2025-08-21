@@ -45,7 +45,7 @@ DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Game-Cards-YuGiOh/i
 ---
 
 ## 📌 Objetivo
-Manter um portfólio de estudos que mostre minha evolução durante os bootcamps da DIO.  
+Manter um portfólio de estudos que mostre minha evolução durante os bootcamps da Ri Happy .  
 Este repositório vai servir tanto como registro de aprendizado quanto como portfólio público.
 
 
