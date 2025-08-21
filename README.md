@@ -21,7 +21,8 @@ Cada projeto representa uma etapa do meu aprendizado em **JavaScript, HTML e CSS
 ### 1. 🧩 Jogo da Memória com Emojis  
 - **Especialista:** Felipe Aguiar *(Tech Educator - DIO)*  
 - **Tecnologias:** HTML, CSS e JavaScript  
-- **Descrição:** Jogo da memória utilizando emojis. Projeto desenvolvido para praticar manipulação de DOM, lógica de programação e estilização com CSS.  
+- **Descrição:** Jogo da memória utilizando emojis. Projeto desenvolvido para praticar manipulação de DOM,
+   lógica de programação e estilização com CSS.  
 DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/JogoDaMemoria/index.html
 
 ### 2. 🧩 Pokedex 
@@ -36,6 +37,13 @@ DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Pokedex/index.html
 - **Descrição:** jogo do Yu-Gi-Oh utilizando as mecânicas de jogo do Jo-Ken-Po,
 vamos explorar conceitos avançados de organização de states com Javascript puro.  
 DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Game-Cards-YuGiOh/index.html
+
+### 4. 🧩 Simulador de Piano 
+- **Especialista:** Felipe Aguiar  *Tech Educator, DIO*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:**  simulador de piano totalmente funcional com manipulação da D.O.M. do Browser
+  através de Javascript e como interagir com áudios.
+DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/SimuladorPiano/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
