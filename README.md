@@ -29,6 +29,13 @@ DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/JogoDaMemoria/index
 - **Tecnologias:** HTML, CSS e JavaScript  
 - **Descrição:** API REST para a criação de uma Pokédex.  
 DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Pokedex/index.html
+
+### 3. 🧩 Game Yu-gi-oh Cards 
+- **Especialista:** Felipe Aguiar  *Tech Educator, DIO*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:** jogo do Yu-Gi-Oh utilizando as mecânicas de jogo do Jo-Ken-Po,
+vamos explorar conceitos avançados de organização de states com Javascript puro.  
+DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Game-Cards-YuGiOh/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
