@@ -44,6 +44,13 @@ vamos explorar conceitos avançados de organização de states com Javascript pu
 - **Descrição:**  simulador de piano totalmente funcional com manipulação da D.O.M. do Browser
   através de Javascript e como interagir com áudios.
 - DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/SimuladorPiano/index.html
+
+ ### 5. 🧩 Landing Page no Mundo Invertido
+- **Especialista:** Michele Ambrosio  *Frontend Developer, Eduzz*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:**  landing page com a temática da série Stranger Things, a qual contará com  
+ a implementação de um theme switcher (light e dark)
+- DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/LandingPageMundoInvertido/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
