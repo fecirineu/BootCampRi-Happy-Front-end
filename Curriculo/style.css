@@ -1,0 +1,175 @@
+*{
+ margin: 0;
+ box-sizing: border-box;
+ list-style: none;
+}
+
+body{
+ background-color: var(--background-color);
+
+}
+.dark-theme{
+   --background-color:  #1a1f35;
+   --backgroundLeftCard: linear-gradient(180deg, #1e2a47, #131a2c);
+   --backgroundRightCard: #111729;
+   --h2:#6c63ff;
+   --p:rgb(255, 255, 255);
+   --bordercolor:#6c63ff;
+    --backgroundBorderColor:#343176;
+}
+.light-theme{
+    --background-color: white;
+    --backgroundLeftCard: linear-gradient(180deg, #ffffff, #9cb4f1);
+    --backgroundRightCard: #d3d9fd;
+    --h2:black;
+    --p:black;
+    --bordercolor:#000000;
+    --backgroundBorderColor:#dfddff;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+
+@media print {
+  html, body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .leftcards {
+    flex: 0 0 60%;
+  }
+
+  .rightcards {
+    flex: 0 0 90%;
+  }
+  button{
+    visibility:hidden;
+  }
+}
+
+
+.container {
+ width: 210mm;
+height: 297mm;
+display: flex;
+flex-direction: row;
+justify-content:center;
+
+    
+}
+.container h2{
+  color:var(--h2);
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.container p{
+    color: var(--p);
+     margin-block-start: 1em;
+    margin-block-end: 1em;
+    letter-spacing: 1px;
+ 
+
+
+}
+.container a{
+   color: var(--p);
+   text-decoration: none;
+}
+.container  span{
+
+ background: var(--backgroundBorderColor);
+ color: var(--p);
+ border-radius: 50px;
+ padding: 10px 10px;
+ margin: 5px ;
+ text-transform: uppercase;
+ display: inline-block;
+ border: solid 1px var(--bordercolor);
+
+
+}
+.container .leftcards{
+    border-radius: 20px 0px 0px 20px;
+    width: 90mm;
+    background: var(--backgroundLeftCard);
+      box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.3);
+}
+.container .rightcards{
+    width: 120mm;
+        border-radius: 0px 20px 20px 0px;
+    background:var(--backgroundRightCard) ;
+      box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.3);
+    
+}
+.container .rightcards-items{
+    margin: 10% 5% ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+.container .rightcards-items #rightcard h2{
+    margin-bottom: 10px;
+}
+
+.container .leftcards-items{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    color: var(--p);
+}
+.container .leftcards-items p{
+    text-align: center;
+    
+}
+.container .leftcards-items i{
+margin: 10px 20px;
+}
+
+.container .leftcards-items .img-avatar{
+    width: 50%;
+    height: 50%;
+}
+.container .leftcards-items img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    border: solid var(--bordercolor) 4px ;
+    margin-bottom: 10px;
+
+}
+.container .leftcards-items .perfil h2{
+   color: var(--h2);
+
+}
+.container .leftcards-items .skills {
+   
+margin-left: -80px;
+}
+.container .leftcards-items .perfil h2 {
+   
+margin: 15px 10px;
+}
+button{
+background-color: var(--backgroundRightCard);
+border: 1px solid var(--bordercolor);
+position: absolute;
+margin: 10px 10px;
+color:var(--p);
+}
+
