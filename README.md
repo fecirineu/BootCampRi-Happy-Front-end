@@ -51,6 +51,13 @@ vamos explorar conceitos avançados de organização de states com Javascript pu
 - **Descrição:**  landing page com a temática da série Stranger Things, a qual contará com  
  a implementação de um theme switcher (light e dark)
 - DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/LandingPageMundoInvertido/index.html
+
+ ### 6. 🧩 Landing Page Curriculo switch theme
+- **Especialista:**  Felipe Cirineu  *Frontend Developer*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:**  Landing page de currículo otimizada para impressão em A4, com suporte à alternância de tema 
+(Dark e Light).
+- DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Curriculo/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
