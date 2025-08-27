@@ -1,0 +1,347 @@
+/* Variáveis para os temas */
+:root {
+    --primary-bg: #f6f8fc;
+    --secondary-bg: #ffffff;
+    --text-color: #333333;
+    --accent-color: #ffcc00;
+    --border-color: #000000;
+    --card-bg: #eeeeee;
+    --score-bg: #ffffff;
+    --frame-border: 3px solid #000000;
+    --button-bg: #6c79db;
+    --button-text: #ffffff;
+}
+
+.dark-theme {
+    --primary-bg: #1a1a2e;
+    --secondary-bg: #16213e;
+    --text-color: #e6e6e6;
+    --accent-color: #ffcc00;
+    --border-color: #ffffff;
+    --card-bg: #0f3460;
+    --score-bg: #222222;
+    --frame-border: 3px solid #ffffff;
+    --button-bg: #8a4fff;
+    --button-text: #ffffff;
+}
+
+/* Reset e estilos base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--primary-bg);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    min-height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.container_left, .container_right {
+    background-color: var(--secondary-bg);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.container_left {
+   text-transform: uppercase;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_right {
+    flex: 1;
+    min-width: 300px;
+}
+
+.framed {
+    border: var(--frame-border);
+    border-radius: 10px;
+}
+
+.score_box {
+
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#card-image {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card_details {
+
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.card_details p {
+    margin: 5px 0;
+}
+
+.card-box_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    min-height: 150px;
+    padding: 15px;
+    background-color: var(--card-bg);
+    min-height: 180px;
+}
+
+.card-versus_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 300px;
+    height: 300px;
+    max-height: 300px;
+}
+
+.versus-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-infield {
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--secondary-bg);
+}
+
+#next-duel {
+    padding: 15px 30px;
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+}
+
+.pokemon-card {
+    width: 100px;
+    height: 140px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background-color: var(--secondary-bg);
+    text-transform: uppercase;
+}
+
+.pokemon-cardComputer {
+    width: 100px;
+    height: 140px;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    background-image: url(assets/card-back.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.pokemon-card:hover {
+    transform: scale(1.1);
+}
+.pokemon-card img{
+        background-image: url(assets/pokebalbg.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+#card-image {
+        background-image: url(assets/pokebalbg.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+
+  
+}
+.pokemon-card img {
+    width: 100%;
+    height: 80px;
+    object-fit: contain;
+
+    
+}
+
+
+.pokemon-card .card-info {
+    padding: 5px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.loading {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+
+/* Tipos de Pokémon */
+.type-fire {
+    background-color: #ee7f30 !important;
+    color: white;
+        filter:brightness(1.15);
+        border-radius: 10px;
+  
+    
+}
+
+.type-water {
+    background-color: #678fee !important;
+    color: white;
+       filter:brightness(1.15);
+        border-radius: 10px;
+}
+
+.type-ground {
+    background-color: #dfbf69 !important;
+    color: white;
+       filter:brightness(1.15);
+        border-radius: 10px;
+}
+
+.type-normal {
+    background-color: #a6a877 !important;
+    color: white;
+       filter:brightness(1.15);
+        border-radius: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container_left, .container_right {
+        width: 100%;
+    }
+    
+    .versus-top {
+        flex-direction: column;
+    }
+}
+.computer img{
+    background: url(assets/card-back.png);
+}
+.fieldwin{
+    background-color: green;
+}
+.fieldLose{
+    background-color: red;
+}
+#player-field-attack{
+    color: white;
+     text-transform: uppercase;
+   text-align: center;
+}
+#computer-field-attack{
+ color: white;
+  text-transform: uppercase;
+   text-align: center;
+}
+#player-field-name{
+    color: white;
+     text-transform: uppercase;
+     text-align: center;
+}
+#computer-field-name{
+ color: white;
+ text-transform: uppercase;
+   text-align: center;
+}
+.bg-video{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    
+}
+.bg-video::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg,
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0.8) 30%,
+    rgba(0,0,0,1) 60%);
+}
+.bg-video video{
+ height:  100vh;
+
+
+}
+#player-field-type{
+            background-image: url(assets/pokebalbg.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
+#computer-field-type{
+            background-image: url(assets/pokebalbg.png);
+        background-repeat: no-repeat;
+    background-size: cover;
+}
