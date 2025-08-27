@@ -10,11 +10,11 @@ export class Pokemon {
 }
 
 const API_URL = "https://pokeapi.co/api/v2/pokemon";
-const validTypes = ["fire", "water", "ground"];
+const validTypes = ["electric", "water", "fire","grass"];
 
 export async function getPokemons() {
     try {
-        const response = await fetch(`${API_URL}?limit=50`);
+        const response = await fetch(`${API_URL}?limit=75`);
         const data = await response.json();
 
         const pokemonList = await Promise.all(
