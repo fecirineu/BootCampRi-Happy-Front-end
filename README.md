@@ -66,6 +66,12 @@ vamos explorar conceitos avançados de organização de states com Javascript pu
 de api pokedex para sorteio de cartas aleatorio.  
 (Dark e Light).
 - DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/GamePokemonCards/index.html
+
+ ### 8. 🧩 Game Mario World
+- **Especialista:**  Felipe Cirineu  *Frontend Developer*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:**  jogo de pular obstaculos usando todos os conhecimentos abstraido do bootcamp.
+- DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/GameMarioWorld/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
