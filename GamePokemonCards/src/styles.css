@@ -239,7 +239,8 @@ justify-content: center;
     color: white;
         filter:brightness(1.15);
         border-radius: 10px;
-  
+         text-align: center;
+      text-transform: uppercase;
     
 }
 
@@ -248,20 +249,26 @@ justify-content: center;
     color: white;
        filter:brightness(1.15);
         border-radius: 10px;
+         text-align: center;
+             text-transform: uppercase;
 }
 
-.type-ground {
-    background-color: #dfbf69 !important;
+.type-grass {
+    background-color: #85cc78 !important;
     color: white;
        filter:brightness(1.15);
         border-radius: 10px;
+         text-align: center;
+         text-transform: uppercase;
 }
 
-.type-normal {
-    background-color: #a6a877 !important;
+.type-electric {
+    background-color: #c8aa27 !important;
     color: white;
        filter:brightness(1.15);
         border-radius: 10px;
+        text-align: center;
+                text-transform: uppercase;
 }
 
 /* Responsividade */
