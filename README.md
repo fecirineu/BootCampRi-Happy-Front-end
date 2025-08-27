@@ -58,6 +58,14 @@ vamos explorar conceitos avançados de organização de states com Javascript pu
 - **Descrição:**  Landing page de currículo otimizada para impressão em A4, com suporte à alternância de tema 
 (Dark e Light).
 - DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/Curriculo/index.html
+
+ ### 7. 🧩 Game Pokemon Cards
+- **Especialista:**  Felipe Cirineu  *Frontend Developer*  
+- **Tecnologias:** HTML, CSS e JavaScript  
+- **Descrição:**  jogo de cartas utilizando todos os conhecimentos abstraido do bootcamp, como sistema de integração
+de api pokedex para sorteio de cartas aleatorio.  
+(Dark e Light).
+- DEMO: https://fecirineu.github.io/BootCampRi-Happy-Front-end/GamePokemonCards/index.html
 ---
 
 ## 🚀 Tecnologias Estudadas
