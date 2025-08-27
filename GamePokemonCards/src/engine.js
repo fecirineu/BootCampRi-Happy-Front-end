@@ -19,7 +19,9 @@ const state = {
         playerAttack: document.getElementById("player-field-attack"),
         computerAttack: document.getElementById("computer-field-attack"),
         playerName: document.getElementById("player-field-name"),
-        computerName: document.getElementById("computer-field-name")
+        computerName: document.getElementById("computer-field-name"),
+          playerType: document.getElementById("player-field-type-span"),
+        computerType: document.getElementById("computer-field-type-span"),
     },
     playerSides: {
         player1: "player-cards",
@@ -35,9 +37,10 @@ const state = {
 };
 
 const typeAdvantages = {
-    fire: ["ground"],
+    fire: ["grass"],
     water: ["fire"],
-    ground: ["water"]
+    grass: ["water"],
+    electric: ["water"],
 };
 
 async function init() {
@@ -93,14 +96,23 @@ async function drawCards(cardNumbers, fieldSide) {
 function clearTypes(){
     document.getElementById("cleft").classList.remove(`type-water`);
       document.getElementById("cleft").classList.remove(`type-fire`);
-        document.getElementById("cleft").classList.remove(`type-eletric`);
+        document.getElementById("cleft").classList.remove(`type-electric`);
           document.getElementById("cleft").classList.remove(`type-ground`);
-              document.getElementById("cleft").classList.remove(`type-normal`);
+              document.getElementById("cleft").classList.remove(`type-grass`);
               state.cardSprites.type.classList.remove(`type-water`);
-              state.cardSprites.type.classList.remove(`type-eletric`);
+              state.cardSprites.type.classList.remove(`type-electric`);
               state.cardSprites.type.classList.remove(`type-fire`);
               state.cardSprites.type.classList.remove(`type-ground`);
-              state.cardSprites.type.classList.remove(`type-normal`);
+              state.cardSprites.type.classList.remove(`type-grass`);
+
+                          state.fieldCards.computerType.classList.remove(`type-grass`);
+    state.fieldCards.playerType.classList.remove(`type-grass`);
+                           state.fieldCards.computerType.classList.remove(`type-electric`);
+    state.fieldCards.playerType.classList.remove(`type-electric`);
+                          state.fieldCards.computerType.classList.remove(`type-water`);
+    state.fieldCards.playerType.classList.remove(`type-water`);
+      state.fieldCards.computerType.innerText=  ``;
+    state.fieldCards.playerType.innerText=  ``;
 }
 async function drawSelectCard(pokemon) {
     clearTypes();
@@ -149,6 +161,10 @@ async function setCardsField(playerCard) {
     state.fieldCards.computerAttack.innerText = `Ataque: ${computerCard.attack}`;
         state.fieldCards.playerName.innerText = ` ${playerCard.name}`;
     state.fieldCards.computerName.innerText = ` ${computerCard.name}`;
+            state.fieldCards.computerType.classList.add(`type-${computerCard.type}`);
+    state.fieldCards.playerType.classList.add(`type-${playerCard.type}`);
+      state.fieldCards.computerType.innerText=  `${computerCard.type}`;
+    state.fieldCards.playerType.innerText=  `${playerCard.type}`;
 
     const duelResult = await checkDuelResult(playerCard, computerCard);
 
